@@ -37,5 +37,14 @@ Researchers can create one of 4 different schedule types
 4. *Custom Schedule* - Input a block of code that is executed routinely to check conditions, enable/disable sensors and questions, send notifications, or do complex data analysis.
 
 
+## Custom Schedule Demos
+
+This repository gives many examples of custom schedule code that can be copied and pasted into the healthsense platform in order to replicate findings. Each of the demos is described in detail below. More detailed information on how to use the platform can be found at https://healthsense.rice.edu/documentation
+
+
+### [Eating Habits](./eating_habits.js)
+
+
+
 
 
