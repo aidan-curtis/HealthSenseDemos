@@ -1,4 +1,6 @@
 var LOC_QID = "5c26a2d5aa840d2aff351434"
+var RADIUS_THRESH = 0.0002
+
 deactivate([{_id: LOC_QID}], Users)
 activate([{_id: LOC_QID}], Users, {})
 for(var u_idx = 0; u_idx<Users.length; u_idx+=1){
@@ -37,7 +39,7 @@ for(var u_idx = 0; u_idx<Users.length; u_idx+=1){
 
 					if(new_store[uid][response.results[0].name] == undefined){
 						new_store[uid][response.results[0].name] = 1
-					} else if(radius<=0.0002){
+					} else if(radius<=RADIUS_THRESH){
 						new_store[uid][response.results[0].name] += 1
 						if(new_store[uid][response.results[0].name] == 15){
 							send_notification("Did you eat at "+response.results[0].name+" ?", User)
