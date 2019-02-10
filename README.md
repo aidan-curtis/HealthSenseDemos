@@ -43,7 +43,19 @@ This repository gives many examples of custom schedule code that can be copied a
 
 
 ### [Eating Habits](./eating_habits.js)
-
+Using the location sensor on a mobile device and givea  rough  estimate  of  a  participant’s  location,  but  thisestimate  is  noisy  and  sometimes  unclear.   When  theuser’s location is in close proximity to a restaurant fora specified duration, the participant can be asked if theyate at that restaurant to get a more accurate assessmentof eating habits.
+### [Text/Call Metadata](./text_call_metadata.js)
+If a study requires the use of SMS or phone call meta-data,  the  study  can  query  the  user  for  more  detailsabout the subject of specific texts/calls or the partic-ipant’s  relation  to  people  that  they  frequently  call  ortext.
+### [Detecting the Cause of HR Anomalies](./detecting_hr_anomalies.js)
+Anomalies in heart rate can have many causes. Some-times, the cause of these anomalies can be deduced bydata from other sensors, but other times the anomalyneeds  to  be  further  clarified  by  querying  the  user  forwhat  they  think  the  cause  of  the  anomaly  might  be.This  can  help  researchers  identify  events  in  a  partici-pants day that would contribute to unusually high heartrate variability.
+### [Mood and Mobility](./mood_mobility.js)
+Assessing  how  mood  correlates  to  mobility  necessi-tates  collection  of  survey  data  during  periods  of  bothhigh and low mobility.  Since it is impossible continu-ously query the user about their mood, your data dis-tribution  will  likely  be  asymmetrical  with  little  datacollected during moments of high mobility.  Using thiscontext-dependent platform, mood can be queried morefrequently during periods of high mobility.
+### [Randomized Trials](./randomized_trial.js)
+Randomized clinical trials are the most common and basic trial format where participants are randomly assigned to group A or B and different treatments are given to each group based on their group assignment. This specific randomized trial is an example of a JITAI that tries to differentiate between effects of different types of intervention notifications. At the beginning of the study, the groups are randomly assigned. Participants are asked to keep a food diary of the food they eat. Each day, during breakfast lunch and dinner a reminder is sent to the participants in group A to eat healthier and no such notification is sent to the participants in group B.
+### [Adaptive Clinical Trials](./adaptive_trial.js)
+TODO
+### [Time-varying Interventions](./SMART.js)
+TODO
 
 
 
