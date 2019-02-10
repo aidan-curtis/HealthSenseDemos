@@ -1,6 +1,6 @@
-var REST_QID = "5c26a2d5aa840d2aff351434"
-deactivate([{_id: REST_QID}], Users)
-activate([{_id: REST_QID}], Users, {})
+var LOC_QID = "5c26a2d5aa840d2aff351434"
+deactivate([{_id: LOC_QID}], Users)
+activate([{_id: LOC_QID}], Users, {})
 for(var u_idx = 0; u_idx<Users.length; u_idx+=1){
 	var User = Users[u_idx]
 	var uid = Users[u_idx]._id
