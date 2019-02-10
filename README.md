@@ -53,9 +53,9 @@ Assessing how mood correlates to mobility necessitates collection of survey data
 ### [Randomized Trials](./randomized_trial.js)
 Randomized clinical trials are the most common and basic trial format where participants are randomly assigned to group A or B and different treatments are given to each group based on their group assignment. This specific randomized trial is an example of a JITAI that tries to differentiate between effects of different types of intervention notifications. At the beginning of the study, the groups are randomly assigned. Participants are asked to keep a food diary of the food they eat. Each day, during breakfast lunch and dinner a reminder is sent to the participants in group A to eat healthier and no such notification is sent to the participants in group B.
 ### [Adaptive Clinical Trials](./adaptive_trial.js)
-TODO
+Adaptive clinical trials are trials that allow planned modifications to the trial groups during interim analysis in order to improve the power of its statistical conclusions. The allocation of participants to different arms of the study can be modified in order to change sample sizes over the course of the study to detect the true effect of the conditions. Different arms of the study can also employ stopping rules that allows the discontinuation of the study for participants in that group when sufficient data has been collected.
 ### [Time-varying Interventions](./SMART.js)
-TODO
+This platform gives researchers the ability to create sequential, multiple assignment, randomized trials (SMART). SMART is used to create adaptive interventions that can dynamically adjust the parameters of the study. This adjustment can reduce the cost of the study by dropping non-responsive participants or improve the effectiveness of the intervention by randomizing based on patient characteristics.
 
 
 
